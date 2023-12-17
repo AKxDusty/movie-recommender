@@ -1,4 +1,4 @@
-FROM python:3.12.1-slim-bookworm
+FROM python:3.9-slim-buster
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
